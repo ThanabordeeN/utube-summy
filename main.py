@@ -29,7 +29,8 @@ if st.button("Summarize"):
             summary = client.generate_summary(srt)
             # Display summary
         st.subheader("Video Summary")
-        st.write(summary)
+        st.text_area(summary)
+
 
     else:
         st.write("Please enter a YouTube video link")
