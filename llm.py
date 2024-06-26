@@ -1,8 +1,6 @@
 import os
 import google.generativeai as genai
-import dotenv
 
-dotenv.load_dotenv()
 
 class GenerativeAIClient:
     def __init__(self) -> None:
