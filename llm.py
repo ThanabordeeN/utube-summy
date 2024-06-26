@@ -32,18 +32,20 @@ Please follow these steps to complete the task:
 - [Key point 1]
 - [Key point 2]
 - [Key point 3]
-[Add more if necessary]
+- [Key point N]
+
 
 ## Key insights
 1. [Key insight 1]
 2. [Key insight 2]
-3. [Key insight 3 - if applicable]
+3. [Key insight N]
 
 
 ## Highlights
 1. [Important moment 1] (Approximate timestamp: [XX:XX])
 2. [Important moment 2] (Approximate timestamp: [XX:XX])
-3. [Important moment 3 - if applicable] (Approximate timestamp: [XX:XX])
+3. [Important moment 3] (Approximate timestamp: [XX:XX])
+4. [Important moment N] (Approximate timestamp: [XX:XX])
 
 Remember to keep your language clear and concise. Avoid using direct quotes from the transcript unless absolutely necessary. Instead, paraphrase the content to capture the essence of the ideas presented in the video."""
         self.prompt = prompt_template.format(prompt)
