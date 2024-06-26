@@ -36,9 +36,9 @@ Please follow these steps to complete the task:
 
 
 ## Key insights
-1. [Key insight 1]
-2. [Key insight 2]
-3. [Key insight N]
+- [Key insight 1]
+- [Key insight 2]
+- [Key insight N]
 
 
 ## Highlights
