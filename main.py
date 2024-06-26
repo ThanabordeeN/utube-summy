@@ -15,22 +15,21 @@ st.sidebar.markdown("สามารถใช้งานได้ฟรี แ�
 # Get user input
 link = st.text_input("YouTube video link")
 
-if st.button("Summarize"):
+if st.button("สรุป!"):
     if link:
         with st.spinner("Generating summary..."):
 
             # Get transcript from YouTube video
             srt = get_transcript(link)
-    #
+        #
             # Initialize LLM client
             client = GenerativeAIClient()
 
             # Generate summary using LLM
             summary = client.generate_summary(srt)
             # Display summary
-        st.subheader("Video Summary")
-        st.text_area(summary)
-
+        st.header("Video Summary")
+        st.write(summary)
 
     else:
         st.write("Please enter a YouTube video link")
